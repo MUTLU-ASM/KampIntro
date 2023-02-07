@@ -16,7 +16,7 @@ namespace OOP1
             Product product2 = new Product { Id=2,CategoryId=5,ProductName="Kalem",UnitInStock=5,UnitPrice=35};
 
             //PascalCase    //CamelCase
-            //Case sensitive
+            //Case sensitive - harfe duyarlı    
             ProductManager productManager = new ProductManager();
 
             productManager.Add(product1);
